@@ -1,0 +1,17 @@
+{
+    "batchPerHost": 10,
+    "stages": [
+        { 
+            "duration": "30s", 
+            "target": 10
+        },
+        { 
+            "duration": "10m", 
+            "target": 10
+        },
+        { 
+            "duration": "30s", 
+            "target": 0
+        }
+    ]
+}
